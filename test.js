@@ -16,3 +16,4 @@ if (navigator.geolocation) {
 
 var userAgent = navigator.userAgent;
 console.log('User Agent:', userAgent);
+
