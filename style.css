@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container_lat, .container_lon {
+    text-align: center;
+    font-size: 3rem;
+}
