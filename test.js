@@ -14,6 +14,9 @@ if (navigator.geolocation) {
 
     }, function (error) {
         console.log('Error al obtener la ubicación:', error.message);
+
+        var element_lon = document.querySelector('.container_error');
+        element_lon.innerHTML = `<p>Error, no estoy funcionando :(</p>`;
     });
 } else {
     console.log('El navegador no soporta la geolocalización.');
